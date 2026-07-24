@@ -1,8 +1,30 @@
 aid: codesecure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codesecure.png
 name: CodeSecure
-description: CodeSecure is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CodeSecure is an application security testing company whose CodeSonar static
+  application security testing (SAST) engine performs deep whole-program
+  analysis of C, C++, Java, and other languages to find bugs, security
+  vulnerabilities, and coding-standard violations, and whose CodeSentry binary
+  software composition analysis (SCA) tool generates SBOMs and detects
+  vulnerabilities in third-party and binary components. CodeSecure merged with
+  AdaCore in 2025, combining SAST and SCA tooling with high-integrity software
+  development for aerospace, automotive, defense, medical, and industrial
+  customers. The tools support SARIF, CWE, MISRA, CERT, and OWASP as well as
+  safety standards such as ISO 26262, IEC 61508, EN 50128, and DO-178C, and
+  integrate with CI/CD, IDE, and issue-tracking pipelines rather than exposing a
+  public developer REST API.
 url: https://raw.githubusercontent.com/api-evangelist/codesecure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,45 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: merged-into-adacore-2025
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Application Security
+- Static Analysis
+- SAST
+- Software Composition Analysis
+- SBOM
+- DevSecOps
+- Code Quality
+- Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/codesecure-domain-security.yml
+- type: Website
+  url: https://codesecure.com
+- type: Portal
+  url: https://www.adacore.com/codesecure
+- type: Documentation
+  url: https://www.adacore.com/documentation
+- type: Blog
+  url: https://www.adacore.com/blog
+- type: Support
+  url: https://www.adacore.com/codesecure-support
+- type: GitHubOrganization
+  url: https://github.com/adacore
+- type: LLMsTxt
+  url: llms/codesecure-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

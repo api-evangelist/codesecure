@@ -1,0 +1,21 @@
+# CodeSecure
+
+> CodeSecure is an application security testing company. Its CodeSonar static application security testing (SAST) engine performs deep whole-program analysis of C, C++, Java and other languages to find bugs, vulnerabilities, and coding-standard violations, and its CodeSentry binary software composition analysis (SCA) tool generates SBOMs and detects vulnerabilities in third-party and binary components. CodeSecure merged with AdaCore in 2025. The tools integrate with CI/CD, IDE, and issue-tracking pipelines and support SARIF, CWE, MISRA, CERT, OWASP, and safety standards (ISO 26262, IEC 61508, EN 50128, DO-178C). CodeSecure does not publish a public developer REST API.
+
+## Products
+- [CodeSonar (SAST)](https://www.adacore.com/codesonar): Deep static analysis for C/C++/Java and more.
+- [CodeSecure product hub](https://www.adacore.com/codesecure): Overview of the CodeSecure application security portfolio at AdaCore.
+
+## Docs
+- [Documentation](https://www.adacore.com/documentation): AdaCore/CodeSecure product documentation.
+- [Support](https://www.adacore.com/codesecure-support): CodeSecure support information.
+- [Support portal (GNAT Tracker)](https://support.adacore.com/csm): Unified customer support portal.
+
+## More
+- [Blog](https://www.adacore.com/blog): Company and product blog.
+- [GitHub (AdaCore)](https://github.com/adacore): AdaCore engineering organization.
+- [AdaCore + CodeSecure merger announcement](https://www.adacore.com/press/adacore-and-codesecure-merge)
+
+## Notes
+- No public OpenAPI, AsyncAPI, GraphQL, MCP server, or first-party client SDK packages were found.
+- Interoperability is via file-based standards (SARIF export, SBOM/SPDX/CycloneDX) rather than a hosted API.

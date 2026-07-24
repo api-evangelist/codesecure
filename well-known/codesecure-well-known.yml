@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on provider hosts
+note: >-
+  No /.well-known/ discovery documents are served. codesecure.com (and
+  www.codesecure.com) 301-redirect then return 403 (openresty), and
+  adacore.com/www.adacore.com return 403 (WAF) for all probed paths. No 200
+  responses, so no raw files were saved and no WellKnown pointer is wired.
+hosts:
+- host: codesecure.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+- host: www.adacore.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
