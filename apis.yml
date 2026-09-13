@@ -59,6 +59,7 @@ tags:
 - DevSecOps
 - Code Quality
 - Security
+- Developer Tools
 apis: []
 common:
 - type: DomainSecurity
