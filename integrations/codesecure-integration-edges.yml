@@ -27,6 +27,33 @@ edges:
       P856 not contradicting (Kin 2026-10-20 decision 2)
   detected_by: sweep-cloud-security-star.py
   first_seen: '2026-10-20'
+- partner_name: Battery Ventures
+  partner: battery-ventures
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.battery.com/company/codesecure/
+  category: vc portfolio participation
+  contract_reference:
+    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: CodeSecure
+    register_id: https://www.battery.com/company/codesecure/
+    register_country: Bethesda, Maryland
+    register_website: https://codesecure.com/
+    matched_domain: codesecure.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    status: Acquired by AdaCore
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
 - partner_name: VS Code Marketplace (vs-code-marketplace)
   partner: vs-code-marketplace
   partner_match: mirror
@@ -47,6 +74,23 @@ edges:
   badges:
   - Verified publisher
   - Verified domain
+- partner_name: Atlassian (own)
+  partner: atlassian
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.atlassian.com/vendors/1225279/codesecure
+  mirror_of: atlassian/integrations/atlassian-integration-edges.yml
+  apps:
+  - CodeSonar for Jira
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: Tasks
 generated: '2026-10-20'
 method: searched
 source:
@@ -58,3 +102,10 @@ checked:
 - https://fidoalliance.org/certification/fido-certified-products/
 - https://www.cisa.gov/securebydesign/pledge/secure-design-pledge-signers
 - vs-code-marketplace/integrations/vs-code-marketplace-integration-edges.yml
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.indexventures.com/companies/
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
+- atlassian/integrations/atlassian-integration-edges.yml
