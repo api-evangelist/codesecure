@@ -64,6 +64,50 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CodeSecure is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: battery-ventures
+**Status:** merged-into-adacore-2025
+
+CodeSecure is an application security testing company whose CodeSonar static application security testing (SAST) engine performs deep whole-program analysis of C, C++, Java, and other languages to find bugs, security vulnerabilities, and coding-standard violations, and whose CodeSentry binary software composition analysis (SCA) tool generates SBOMs and detects vulnerabilities in third-party and binary components. CodeSecure merged with AdaCore in 2025, combining SAST and SCA tooling with high-integrity software development for aerospace, automotive, defense, medical, and industrial customers. The tools support SARIF, CWE, MISRA, CERT, and OWASP as well as safety standards such as ISO 26262, IEC 61508, EN 50128, and DO-178C, and integrate with CI/CD, IDE, and issue-tracking pipelines rather than exposing a public developer REST API.
+
+**Areas:** Company · Application Security · Static Analysis · SAST · Software Composition Analysis · SBOM · DevSecOps · Code Quality · Security · Developer Tools
+
+## CodeSecure on APIs.io (historical record)
+
+Everything profiled for CodeSecure is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/codesecure/](https://apis.io/providers/codesecure/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Codesecure Domain Security](https://apis.io/security/codesecure/codesecure-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://codesecure.com)
+- [Documentation](https://www.adacore.com/documentation)
+- [Support](https://www.adacore.com/codesecure-support)
+- [Blog](https://www.adacore.com/blog)
+- [GitHub](https://github.com/adacore)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CodeSecure: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/codesecure/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
